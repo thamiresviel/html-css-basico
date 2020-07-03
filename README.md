@@ -15,7 +15,9 @@
 
 - Tags html são **palavras-chave** entre colchetes
 
-`html <nomeTag>conteúdo</nomeTag>`
+```html 
+<nomeTag>conteúdo</nomeTag>
+```
 
 - As tags HTML normalmente são usadas em pares
 - A primeira tag do par refere-se a **tag inicial** e a segunda tag refere-se a **tag final**
@@ -57,17 +59,70 @@
 
 ## Metadados do Documento
 
-`html <head></head>`
-repesenta uma coleção de metadados sobre o documento, incluindo links das suas definições de scripts e folhas de estilo.
+```html 
+<head></head>
+```
+Repesenta uma coleção de metadados sobre o documento, incluindo links das suas definições de scripts e folhas de estilo.
 
-`html <tiitle></title>`
-define o titulo do documento, apresentado na barra de título do navegador ou na guia da página
+```html 
+<tiitle></title>
+```
+Define o titulo do documento, apresentado na barra de título do navegador ou na guia da página
 
 ## Seções
-`html <body></body>` representa o principal conteúdo de um documento HTML. Há apenas um elemento `<body>` em um documento.
+```html 
+<body></body>
+```
+Representa o principal conteúdo de um documento HTML. Há apenas um elemento `<body>` em um documento.
 
-`html <h1> <h2> <h3> <h4> <h5> <h6>` São elementos que representam os seis níveis de titulos de cabeçalhos dos documentos. Um elemento título descreve brevemente o tema da seção.
+```html 
+<h1> <h2> <h3> <h4> <h5> <h6>
+```
+São elementos que representam os seis níveis de titulos de cabeçalhos dos documentos. Um elemento título descreve brevemente o tema da seção.
 
 ## Agrupando Conteúdo
 
-`html <p> </p> ` define o que deve ser exibido como um paragráfo.
+```html
+html <p> </p>
+```
+Define o que deve ser exibido como um paragráfo.
+
+```html
+<hr>
+```
+Representa uma ruptura temática entre paragráfos de um artigo ou seção ou qualquer conteúdo mais longo
+
+```html
+<ol> </ol>
+```
+Define uma lista ordenada
+
+```html
+<ul> </ul>
+```
+Define uma lista não ordenada
+
+```html
+<li> </li>
+```
+Define um item de uma lista `<ol>` ou de uma `<ul>`
+
+```html
+<dl> </dl>
+```
+Representa uma lista de Definição
+
+```html
+<dt> </dt>
+```
+Representa um item da Lista de Definição `<dd>`
+
+```html
+<dd> </dd>
+```
+Representa a definição dos termos listados imediadamente antes deles
+
+```html
+<div> </div>
+```
+Representa um *container* genérico sem nenhum significado especial
