@@ -132,15 +132,25 @@ Representa um *container* genérico sem nenhum significado especial
 `<a></a>` (usado com atributo href) representa um *hyperlink*, ligando a outro recurso.
 
 `<em></em>` ou `<i></i>` representa a ênfase do conteúdo em itálico.
+
 `<strong></strong>` representa a importância de um pedaço de texto como um forte elemento mas não altera o sentido da frase.
+
 `<small></small>` texto com fonte menor que o padrão
+
 `<code></code>` saída com estilo código
+
 `<samp></samp>` saída como *output* de código de computador
+
 `<kbd></kbd>` estilo *input* de teclado
+
 `<u></u>` texto sublinhado
+
 `<big></big>` texto maior que o padrão
+
 `<sub></sub>` texto subescrito
+
 `<sup></sup>` texto sobrescrito
+
 `<s></s>` ou `<strike></strike>` texto tachado.
 
 ## Tags para Máquina
@@ -163,3 +173,37 @@ Representa um *container* genérico sem nenhum significado especial
 => Estes elementos definem um grupo de cabeçalhos e rodapés. Basicamente são elementos que juntam grupos de textos no documento.
 
 **- article**: O elemento `<article>` é uma especie de `<section>` especializada; possui valor semântico mais especifico do que o valor semântico de `<section>`, no sentido de ser um bloco de conteúdo relacionados independente e autossuficiente. Representa uma parte da página que poderá ser distribuido e reutilizável em *feeds* por exemplo. Isto pode ser um *post*, artigo, um blocode comentários de usuários ou apenas um bloco de texto comum.
+
+**- aside**: Marcamos com `<aside>`, aquele conteúdo relacionado ao conteúdo principal do site. Pode ser representado por conteúdos em *sidebar*, em textos impressos, publicidade ou até mesmo para criar um grupo de elementos *nav* e outras informações separados do conteúdo principal do *website*.
+
+**- nav**: Marcamos como *nav*, a navegação do site. Os links pelos quais os visitantes vão alcançar nossos conteúdos, somente *links* importantes. Até mesmo um formulário pode fazer parte da nossa navegação.
+
+**- section**: O elemento `<section>` é tão somente um bloco de conteúdos relacionados.
+
+**- header**: Parte que se mantém fixa mesmo com a mudança de páginas. Geralmente, a área que contém o logotipo e a naegação principal do site.
+
+**- footer**: Geralmente contém aquela copyright de direitos autorais, contém os artigos relacionados, os botões das redes sociais e etc.
+
+**- hgroup**: Este elemento consiste em um grupo de titulos. Ele serve para agrupar elementos de titulo de H1 até H6 quando eles tem multiplos níveis como título com subtitulos e etc.
+
+**- time**: Este elemento serve para marcar parte do texto que exibe um horário ou uma data precisa no calendário gregoriano
+
+# CSS (Cascading Style Sheets)
+
+É um especificação que define como elementos que compõem uma página, um documento ou aplicação web serão exibidos.
+O CSS traz toda a informação do *layout*, isto é, cores, posicionamento, fontes, tamanhos e imagens de fundo, enquanto o HTML deve fornecer uma 'arquitetura' para o conteúdo.
+
+**O ARQUIVO DEVE SER SALVO COM A EXTENSÃO .CSS**
+
+## Como funciona
+
+Em um documento você pode ter vários arquivos CSS, carregando diferentes regras que se referem a multiplos ou ao mesmos elementos.
+
+## Quais os beneficios
+
+- controle de interface em diferentes documentos em um único arquivo
+- controle de diferentes interfaces para diferentes dispositivos (*responsive design*)
+- precisão para manter a mesma interface para diferentes navegadores
+- melhorias na acessibilidade com a possibilidade de esconder elementos da tela para usuarios sem problemas de visão, mas manter os mesmos elementos acessíveis para leitores de tela
+- menor consumo de banda para usuário e servidor
+- inumeras técnicas dinâmicas que não poderiamser utilizadas em tabelas
