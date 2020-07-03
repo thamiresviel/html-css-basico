@@ -59,12 +59,9 @@
 
 ## Metadados do Documento
 
-```html
-<head></head>
-```
-repesenta uma coleção de metadados sobre o documento, incluindo links das suas definições de scripts e folhas de estilo.
+```html <head></head> ``` repesenta uma coleção de metadados sobre o documento, incluindo links das suas definições de scripts e folhas de estilo.
 
-```html
-<title></title>
-```
-define o titulo do documento, apresentado na barra de título do navegador ou na guia da página.
+```html <title></title> ``` define o titulo do documento, apresentado na barra de título do navegador ou na guia da página
+
+## Seções
+```html <body></body>``` representa o principal conteúdo de um documento HTML. Há apenas um elemento ``` <body> ``` em um documento.
