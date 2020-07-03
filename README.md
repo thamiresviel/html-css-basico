@@ -14,7 +14,9 @@
 ## HTML Tags
 
 - Tags html são **palaras-chave** entre colchetes
-```html <nomeTag>conteúdo</nomeTag>```
+```html
+<nomeTag>conteúdo</nomeTag>
+```
 - As tags HTML normalmente são usadas em pares
 - A primeira tag do par refere-se a **tag inicial** e a segunda tag refere-se a **tag final**
 - A tag final é escrita com um barra (/) antes do nome da Tag final
