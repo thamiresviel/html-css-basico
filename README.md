@@ -1,17 +1,38 @@
-# Informações básicas sobre HTML & CSS
+<!-- vscode-markdown-toc -->
+* 1. [O que é HTML](#OqueHTML)
+* 2. [HTML Tags](#HTMLTags)
+* 3. [Estrutura de um arquivo HTML](#EstruturadeumarquivoHTML)
+* 4. [Tag Head](#TagHead)
+* 5. [Tag Body](#TagBody)
+* 6. [Metadados do Documento](#MetadadosdoDocumento)
+* 7. [Seções](#Sees)
+* 8. [Agrupando Conteúdo](#AgrupandoContedo)
+* 9. [Semântica Textual](#SemnticaTextual)
+* 10. [Tags para Máquina](#TagsparaMquina)
+* 11. [*Section Contente*](#SectionContente)
+* 12. [Como funciona](#Comofunciona)
+* 13. [Quais os beneficios](#Quaisosbeneficios)
+
+<!-- vscode-markdown-toc-config
+	numbering=true
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc --># Informações básicas sobre HTML & CSS
 
 - esse documento tem como finalidade reunir informações básicas sobre HTML & CSS que reuni durante a graduação em Sistemas para Internet pela FATEC
 
-- esse repositório conta com uma página que exibe o resultado de todos os códigos reunidos nesse documento
+- esse repositório contra com uma página que exibe os exercicios feitos na disciplina de "Padrões de Projetos de Sitios Intenet I"
 
-## O que é HTML
+
+
+##  1. <a name='OqueHTML'></a>O que é HTML
 
 - Html é uma abreviação de *HyperText Markup Language*
 - Uma linguagem de marcação é um conjunto de **marcação de tags**
 - Documentos HTML são descritos por **HTML Tags**
 - Cada tag HTML descreve diferentes conteúdos do documento
 
-## HTML Tags
+##  2. <a name='HTMLTags'></a>HTML Tags
 
 - Tags html são **palavras-chave** entre colchetes
 
@@ -23,7 +44,7 @@
 - A primeira tag do par refere-se a **tag inicial** e a segunda tag refere-se a **tag final**
 - A tag final é escrita com um barra (/) antes do nome da Tag final
 
-## Estrutura de um arquivo HTML
+##  3. <a name='EstruturadeumarquivoHTML'></a>Estrutura de um arquivo HTML
 
 - Basicamente um arquivo HTML possui 3 *containers* principais
 
@@ -35,7 +56,7 @@
 </html> <!-- Definir o inicio e o fim de um documento HTML-->
 ~~~
 
-## Tag Head
+##  4. <a name='TagHead'></a>Tag Head
 
 - Contém as instruções para o navegador
 
@@ -45,7 +66,7 @@
 * Palavras chaves (para sistema de busca)
 * Chamadas de arquivos externos (scripts, css)
 
-## Tag Body
+##  5. <a name='TagBody'></a>Tag Body
 
 - Define o que será mostrado ao usuário, contém vários tipos de elementos
 
@@ -57,7 +78,7 @@
 * Listas e
 * etc.
 
-## Metadados do Documento
+##  6. <a name='MetadadosdoDocumento'></a>Metadados do Documento
 
 ```html 
 <head></head>
@@ -69,7 +90,7 @@ Repesenta uma coleção de metadados sobre o documento, incluindo links das suas
 ```
 Define o titulo do documento, apresentado na barra de título do navegador ou na guia da página
 
-## Seções
+##  7. <a name='Sees'></a>Seções
 ```html 
 <body></body>
 ```
@@ -80,7 +101,7 @@ Representa o principal conteúdo de um documento HTML. Há apenas um elemento `<
 ```
 São elementos que representam os seis níveis de titulos de cabeçalhos dos documentos. Um elemento título descreve brevemente o tema da seção.
 
-## Agrupando Conteúdo
+##  8. <a name='AgrupandoContedo'></a>Agrupando Conteúdo
 
 ```html
 <p> </p>
@@ -127,7 +148,7 @@ Representa a definição dos termos listados imediadamente antes deles
 ```
 Representa um *container* genérico sem nenhum significado especial
 
-## Semântica Textual
+##  9. <a name='SemnticaTextual'></a>Semântica Textual
 
 `<a></a>` (usado com atributo href) representa um *hyperlink*, ligando a outro recurso.
 
@@ -153,7 +174,7 @@ Representa um *container* genérico sem nenhum significado especial
 
 `<s></s>` ou `<strike></strike>` texto tachado.
 
-## Tags para Máquina
+##  10. <a name='TagsparaMquina'></a>Tags para Máquina
 
 ~~~html
 <!DOCTYPE html>
@@ -168,7 +189,7 @@ Representa um *container* genérico sem nenhum significado especial
 => Um dos principais objetivos do HTML5 é **facilitar a manipulação do elemento** possibilitando o desenvolvedor a modificar as caracteristicas dos objetos de forma não intrusiva e de maneira que seja transparente para o usuário final.
 => O HTML5 fornece ferramentas para a **CSS** e o ***JAVASCRIPT*** fazerem seu trabalho da melhor maneira possível. Permite por meio de suas APIs a manipulação das caracteristicas destes elementos, de forma que o *website* ou a aplicação continue leve e funcional.
 
-## *Section Contente*
+##  11. <a name='SectionContente'></a>*Section Contente*
 
 => Estes elementos definem um grupo de cabeçalhos e rodapés. Basicamente são elementos que juntam grupos de textos no documento.
 
@@ -195,11 +216,11 @@ O CSS traz toda a informação do *layout*, isto é, cores, posicionamento, font
 
 **O ARQUIVO DEVE SER SALVO COM A EXTENSÃO .CSS**
 
-## Como funciona
+##  12. <a name='Comofunciona'></a>Como funciona
 
 Em um documento você pode ter vários arquivos CSS, carregando diferentes regras que se referem a multiplos ou ao mesmos elementos.
 
-## Quais os beneficios
+##  13. <a name='Quaisosbeneficios'></a>Quais os beneficios
 
 - controle de interface em diferentes documentos em um único arquivo
 - controle de diferentes interfaces para diferentes dispositivos (*responsive design*)
