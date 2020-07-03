@@ -17,7 +17,8 @@
 	numbering=true
 	autoSave=true
 	/vscode-markdown-toc-config -->
-<!-- /vscode-markdown-toc --># Informações básicas sobre HTML & CSS
+<!-- /vscode-markdown-toc -->
+# Informações básicas sobre HTML & CSS
 
 - esse documento tem como finalidade reunir informações básicas sobre HTML & CSS que reuni durante a graduação em Sistemas para Internet pela FATEC
 
@@ -227,4 +228,4 @@ Em um documento você pode ter vários arquivos CSS, carregando diferentes regra
 - precisão para manter a mesma interface para diferentes navegadores
 - melhorias na acessibilidade com a possibilidade de esconder elementos da tela para usuarios sem problemas de visão, mas manter os mesmos elementos acessíveis para leitores de tela
 - menor consumo de banda para usuário e servidor
-- inumeras técnicas dinâmicas que não poderiamser utilizadas em tabelas
+- inumeras técnicas dinâmicas que não poderiam ser utilizadas em tabelas
