@@ -83,7 +83,7 @@ São elementos que representam os seis níveis de titulos de cabeçalhos dos doc
 ## Agrupando Conteúdo
 
 ```html
-html <p> </p>
+<p> </p>
 ```
 Define o que deve ser exibido como um paragráfo.
 
@@ -126,3 +126,40 @@ Representa a definição dos termos listados imediadamente antes deles
 <div> </div>
 ```
 Representa um *container* genérico sem nenhum significado especial
+
+## Semântica Textual
+
+`<a></a>` (usado com atributo href) representa um *hyperlink*, ligando a outro recurso.
+
+`<em></em>` ou `<i></i>` representa a ênfase do conteúdo em itálico.
+`<strong></strong>` representa a importância de um pedaço de texto como um forte elemento mas não altera o sentido da frase.
+`<small></small>` texto com fonte menor que o padrão
+`<code></code>` saída com estilo código
+`<samp></samp>` saída como *output* de código de computador
+`<kbd></kbd>` estilo *input* de teclado
+`<u></u>` texto sublinhado
+`<big></big>` texto maior que o padrão
+`<sub></sub>` texto subescrito
+`<sup></sup>` texto sobrescrito
+`<s></s>` ou `<strike></strike>` texto tachado.
+
+## Tags para Máquina
+
+~~~html
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html lang="pt-br">
+<meta name="keywords" content="esportes, jornais, revistas,bibiliotecas">
+<meta name="description" content="O uol é o maior provedor de acessoa à internet do Brasil.">
+~~~
+
+# HTML 5 
+
+=> Um dos principais objetivos do HTML5 é **facilitar a manipulação do elemento** possibilitando o desenvolvedor a modificar as caracteristicas dos objetos de forma não intrusiva e de maneira que seja transparente para o usuário final.
+=> O HTML5 fornece ferramentas para a **CSS** e o ***JAVASCRIPT*** fazerem seu trabalho da melhor maneira possível. Permite por meio de suas APIs a manipulação das caracteristicas destes elementos, de forma que o *website* ou a aplicação continue leve e funcional.
+
+## *Section Contente*
+
+=> Estes elementos definem um grupo de cabeçalhos e rodapés. Basicamente são elementos que juntam grupos de textos no documento.
+
+**- article**: O elemento `<article>` é uma especie de `<section>` especializada; possui valor semântico mais especifico do que o valor semântico de `<section>`, no sentido de ser um bloco de conteúdo relacionados independente e autossuficiente. Representa uma parte da página que poderá ser distribuido e reutilizável em *feeds* por exemplo. Isto pode ser um *post*, artigo, um blocode comentários de usuários ou apenas um bloco de texto comum.
