@@ -15,9 +15,7 @@
 
 - Tags html são **palavras-chave** entre colchetes
 
-```html
-<nomeTag>conteúdo</nomeTag>
-```
+`html <nomeTag>conteúdo</nomeTag>`
 
 - As tags HTML normalmente são usadas em pares
 - A primeira tag do par refere-se a **tag inicial** e a segunda tag refere-se a **tag final**
@@ -59,9 +57,17 @@
 
 ## Metadados do Documento
 
-```<head></head> ``` repesenta uma coleção de metadados sobre o documento, incluindo links das suas definições de scripts e folhas de estilo.
+`html <head></head>`
+repesenta uma coleção de metadados sobre o documento, incluindo links das suas definições de scripts e folhas de estilo.
 
-```<tiitle></title> ``` define o titulo do documento, apresentado na barra de título do navegador ou na guia da página
+`html <tiitle></title>`
+define o titulo do documento, apresentado na barra de título do navegador ou na guia da página
 
 ## Seções
-```<body></body>``` representa o principal conteúdo de um documento HTML. Há apenas um elemento ``` <body> ``` em um documento.
+`html <body></body>` representa o principal conteúdo de um documento HTML. Há apenas um elemento `<body>` em um documento.
+
+`html <h1> <h2> <h3> <h4> <h5> <h6>` São elementos que representam os seis níveis de titulos de cabeçalhos dos documentos. Um elemento título descreve brevemente o tema da seção.
+
+## Agrupando Conteúdo
+
+`html <p> </p> ` define o que deve ser exibido como um paragráfo.
