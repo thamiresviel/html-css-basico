@@ -1,21 +1,99 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercícios Padrões de Projetos de Sitio Internet I</title>
     <script src="https://kit.fontawesome.com/a17b1634a4.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/style.css"/>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
 </head>
+
 <body>
-   <nav>
-       <a href="#">Home</a>
-       <a href="#">Exercícios</a>
-       <a href="#">Portfólio</a>
-       <a href="#">Sobre</a>
-       <a href="#">Contato</a>
-       <div class="animation start-home"></div>
-   </nav>
+    <div class="center"></div>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Exercícios</a>
+        <a href="#">Portfólio</a>
+        <a href="#">Sobre</a>
+        <a href="#">Contato</a>
+        <div class="animation start-home"></div>
+    </nav>
+    <!-- CARDS -->
+    <h1 class="label">Acompanhe meus estudos</h1>
+    <div class="card-wrapper">
+        <!-- card 1 -->
+        <div class="card">
+            <div class="card__thumbnail">
+                <img src="img/github.png" alt="">
+            </div>
+            <div class="card__description">
+                <p>Todos os códigos apresentados nesse site encontram-se no meu github</p>
+            </div>
+            <button class="card__action">
+                <a href="https://github.com/thamiresviel">acompanhe meus códigos <i class="fa fa-angle-right"> </i>
+                </a>
+            </button>
+        </div>
+        <!-- card 2 -->
+        <div class="card">
+            <div class="card__thumbnail">
+                <img src="img/perfil-sobre.png" alt="">
+            </div>
+            <div class="card__description">
+                <p>Saiba sobre minha trajetória acadêmica e pessoal para me conhecer melhor</p>
+            </div>
+            <button class="card__action">
+                <a href="sobre.html">acompanhe meus códigos <i class="fa fa-angle-right"> </i>
+                </a>
+            </button>
+        </div>
+        <!-- card 3 -->
+        <div class="card">
+            <div class="card__thumbnail">
+                <img src="img/behance.png" alt="">
+            </div>
+            <div class="card__description">
+                <p>Todos os meus trabalhos como designer gráfico podem ser encontrados no meu Behance</p>
+            </div>
+            <button class="card__action">
+                <a href="https://www.behance.net/thamiresviel">acompanhe meus códigos <i class="fa fa-angle-right"> </i>
+                </a>
+            </button>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-left">
+            <h3>Exercícios de PPSI</h3>
+            <p class="footer-links">
+                <a href="#">home</a>
+                <a href="#">exercicios</a>
+                <a href="#">portfolio</a>
+                <a href="#">sobre</a>
+                <a href="#">contato</a>
+            </p>
+            <div class="footer-comapny-name">
+                Thamires Viel &copy; 2016
+            </div>
+            <div class="footer icons">
+                <a href="#"><i class="fab fa-behance-square"></i></a>
+                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                <a href="#"><i class="fab fa-instagram-square"></i></a>
+                <a href="#"><i class="fab fa-github-square"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+        <div class="footer-right">
+            <p>Contato</p>
+            <form action="#" method="post">
+                <input type="text " name="email" placeholder="email">
+                <textarea name="message" placeholder="menssagem" cols="30" rows="10"></textarea>
+                <button>Send</button>
+            </form>
+        </div>
+    </footer>
+</div>
 </body>
+
 </html>
