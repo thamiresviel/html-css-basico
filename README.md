@@ -22,7 +22,7 @@
 
 - esse documento tem como finalidade reunir informações básicas sobre HTML & CSS que reuni durante a graduação em Sistemas para Internet pela FATEC
 
-- esse repositório contra com uma página que exibe os exercicios feitos na disciplina de "Padrões de Projetos de Sitios Intenet I"
+- esse repositório conta com uma página que exibe os exercicios feitos na disciplina de "Padrões de Projetos de Sitios Intenet I" e você pode [acessa-la clicando aqui](https://thamiresviel.github.io/html-css-basico/)
 
 
 
